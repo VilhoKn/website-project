@@ -14,19 +14,37 @@
 }
 
 .jumbotron h1 {
-    font-size: 30px;
+    font-size: 40px;
     line-height: 1.5;
 
 }
 
 .jumbotron p {
-    font-size: 20px;
+    font-size: 30px;
     line-height: 1.5;
 
 }
 
 .jumbotron2 p {
-    font-size: 20px;
+    font-size: 30px;
+    line-height: 1.5;
+
+}
+
+.jumbotron3 p {
+    font-size: 30px;
+    line-height: 1.5;
+
+}
+
+.jumbotron4 p {
+    font-size: 30px;
+    line-height: 1.5;
+
+}
+
+.jumbotron5 p {
+    font-size: 30px;
     line-height: 1.5;
 
 }
@@ -41,7 +59,7 @@
 }
 
 .jumbotron2 h1 {
-    font-size: 30px;
+    font-size: 40px;
     line-height: 1.5;
 
 }
@@ -56,7 +74,7 @@
 }
 
 .jumbotron3 h1 {
-    font-size: 30px;
+    font-size: 40px;
     line-height: 1.5;
 
 }
@@ -71,7 +89,7 @@
 }
 
 .jumbotron4 h1 {
-    font-size: 30px;
+    font-size: 40px;
     line-height: 1.5;
 
 }
@@ -86,7 +104,7 @@
 }
 
 .jumbotron5 h1 {
-    font-size: 30px;
+    font-size: 40px;
     line-height: 1.5;
 
 }
@@ -101,7 +119,7 @@ hr {
 }
 
 .intro {
-    padding-top: 100px;
+    padding-top: 170px;
 }
 
 .intro img{
@@ -109,7 +127,7 @@ hr {
 }
 
 .intro2 {
-    padding-top: 120px;
+    padding-top: 185px;
 }
 
 .intro2 img{
@@ -117,7 +135,7 @@ hr {
 }
 
 .intro3 {
-    padding-top: 160px;
+    padding-top: 235px;
 }
 
 .intro3 img{
@@ -125,7 +143,7 @@ hr {
 }
 
 .intro4 {
-    padding-top: 150px;
+    padding-top: 220px;
 }
 
 .intro4 img{
@@ -133,7 +151,7 @@ hr {
 }
 
 .intro5 {
-    padding-top: 190px;
+    padding-top: 250px;
 }
 
 .intro5 img{
@@ -141,6 +159,7 @@ hr {
 }
 
 nav a {
+    font-size: 25px;
     color: white;
     margin-right: 10px;
     margin-left: 10px;
