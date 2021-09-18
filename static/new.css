@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.jumbotron {
+    margin-bottom: 0!important;
+    background-image: url(images/nimeton2.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    border-radius: 0px!important;
+}
+
+.jumbotron h1 {
+    font-size: 30px;
+    line-height: 1.5;
+
+}
+
+.jumbotron2 {
+    background-image: url(images/nimeton3.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    border-radius: 0px!important;
+}
+
+.jumbotron2 h1 {
+    font-size: 30px;
+    line-height: 1.5;
+
+}
+
+.jumbotron3 {
+    background-image: url(images/nimeton4.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    border-radius: 0px!important;
+}
+
+.jumbotron3 h1 {
+    font-size: 15px;
+    line-height: 1.5;
+
+}
+
+.jumbotron4 {
+    background-image: url(images/nimeton5.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    border-radius: 0px!important;
+}
+
+.jumbotron4 h1 {
+    font-size: 15px;
+    line-height: 1.5;
+
+}
+
+.jumbotron5 {
+    background-image: url(images/nimeton6.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    border-radius: 0px!important;
+}
+
+.jumbotron5 h1 {
+    font-size: 30px;
+    line-height: 1.5;
+
+}
+
+hr {
+    width: 300px;
+    height: 1px;
+    background-color: white;
+    display: inline-block;
+    margin-top: 0;
+}
+
+.intro {
+    padding-top: 100px;
+}
+
+.intro img{
+    width: 220px;
+}
+
+.intro2 {
+    padding-top: 120px;
+}
+
+.intro2 img{
+    width: 220px;
+}
+
+nav a {
+    color: white;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.navbar-toggler {
+    color: white!important;
+    border: none!important;
+    outline: none!important;
+}
+
+.navbar-toggler .fa {
+    color: white!important;
+    font-size: 26px;
+}
+
+a:hover {
+    color: white!important;
+    border-bottom: 1px solid white;
+    font-weight: 600;
+    margin-bottom: -1px;
+}

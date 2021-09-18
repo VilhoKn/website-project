@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.jumbotron {
+    background-image: url(images/nimeton2.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    border-radius: 0px!important;
+}
+
+.jumbotron h1 {
+    font-size: 30px;
+    line-height: 1.5;
+
+}
+
+hr {
+    width: 300px;
+    height: 5px;
+    background-color: white;
+    display: inline-block;
+    margin-top: 0;
+}
+
+.intro {
+    padding-top: 160px;
+}
+
+.intro img{
+    width: 220px;
+}
+
+nav a {
+    color: white;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.navbar-toggler {
+    color: white!important;
+    border: none!important;
+    outline: none!important;
+}
+
+.navbar-toggler .fa {
+    color: white!important;
+    font-size: 26px;
+}
+
+a:hover {
+    color: white!important;
+    border-bottom: 1px solid white;
+    font-weight: 600;
+    margin-bottom: -1px;
+}

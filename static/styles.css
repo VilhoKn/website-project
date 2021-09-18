@@ -1,0 +1,67 @@
+@font-face {
+    src: url(fonts/poppins.ttf);
+    font-family: Poppins;
+}
+
+@font-face {
+    src: url(fonts/Roboto-Regular.ttf);
+    font-family: Roboto;
+}
+
+.section-1 {
+    background-color: #355C7D;
+    height: 570px;
+}
+
+.section-2 {
+    
+    background-color: #5865F2;
+    height: 625px;
+}
+
+.big-text {
+    font-size: 60px;
+    margin-left: 100px;
+    font-family: Poppins;
+    color: white;
+    position: relative;
+    top: 90px;
+}
+
+.big-text-2 {
+    font-size: 60px;
+    margin-left: 100px;
+    font-family: Poppins;
+    color: white;
+    position: relative;
+    top: 90px;
+}
+
+.small-text {
+    font-size: 25px;
+    margin-left: 465px;
+    margin-right: 5px;
+    font-family: Poppins;
+    color: white;
+    position: relative;
+    top: 150px;
+}
+
+.small-text-2 {
+    font-size: 35px;
+    margin-left: 450px;
+    margin-right: 35px;
+    font-family: Poppins;
+    color: white;
+    position: relative;
+    top: 150px;
+}
+
+.channel-text {
+    font-size: 35px;
+    margin-left: 450px;
+    font-family: Poppins;
+    color: blue;
+    position: relative;
+    top: 155px;
+}
