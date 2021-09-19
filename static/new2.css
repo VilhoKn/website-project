@@ -6,48 +6,27 @@
 .jumbotron {
     margin-bottom: 0!important;
     background-image: url(images/nimeton2.jpg);
-    height: 80vh;
+    height: 85vh;
     background-size: cover;
     background-position: center;
     color: white;
     border-radius: 0px!important;
 }
 
-.jumbotron h1 {
-    font-size: 40px;
+h1 {
+    font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum 
+    viewport width]) / ([maximum viewport width] - [minimum viewport width])));
     line-height: 1.5;
 
 }
 
-.jumbotron p {
-    font-size: 30px;
+p {
+    font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum 
+    viewport width]) / ([maximum viewport width] - [minimum viewport width])));;
     line-height: 1.5;
 
 }
 
-.jumbotron2 p {
-    font-size: 30px;
-    line-height: 1.5;
-
-}
-
-.jumbotron3 p {
-    font-size: 30px;
-    line-height: 1.5;
-
-}
-
-.jumbotron4 p {
-    font-size: 30px;
-    line-height: 1.5;
-
-}
-
-.jumbotron5 p {
-    font-size: 30px;
-    line-height: 1.5;
-
-}
 
 .jumbotron2 {
     background-image: url(images/nimeton3.jpg);
@@ -58,11 +37,7 @@
     border-radius: 0px!important;
 }
 
-.jumbotron2 h1 {
-    font-size: 40px;
-    line-height: 1.5;
 
-}
 
 .jumbotron3 {
     background-image: url(images/nimeton4.jpg);
@@ -73,11 +48,6 @@
     border-radius: 0px!important;
 }
 
-.jumbotron3 h1 {
-    font-size: 40px;
-    line-height: 1.5;
-
-}
 
 .jumbotron4 {
     background-image: url(images/nimeton5.jpg);
@@ -88,11 +58,7 @@
     border-radius: 0px!important;
 }
 
-.jumbotron4 h1 {
-    font-size: 40px;
-    line-height: 1.5;
 
-}
 
 .jumbotron5 {
     background-image: url(images/nimeton7.jpg);
@@ -103,10 +69,8 @@
     border-radius: 0px!important;
 }
 
-.jumbotron5 h1 {
-    font-size: 40px;
-    line-height: 1.5;
-
+nav {
+    position: absolute!important;
 }
 
 
