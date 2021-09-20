@@ -14,15 +14,13 @@
 }
 
 h1 {
-    font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum 
-    viewport width]) / ([maximum viewport width] - [minimum viewport width])));
+    font-size: calc(21px + 1vw);
     line-height: 1.5;
 
 }
 
 p {
-    font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum 
-    viewport width]) / ([maximum viewport width] - [minimum viewport width])));;
+    font-size: calc(11px + 1vw);;
     line-height: 1.5;
 
 }
@@ -75,7 +73,7 @@ nav {
 
 
 hr {
-    width: 300px;
+    width: calc(200px + 7vw);
     height: 1px;
     background-color: white;
     display: inline-block;
@@ -83,7 +81,7 @@ hr {
 }
 
 .intro {
-    padding-top: 170px;
+    padding-top: calc(155px + 3vw);
 }
 
 .intro img{
@@ -91,7 +89,7 @@ hr {
 }
 
 .intro2 {
-    padding-top: 185px;
+    padding-top: calc(128px + 3vw);
 }
 
 .intro2 img{
@@ -99,7 +97,7 @@ hr {
 }
 
 .intro3 {
-    padding-top: 235px;
+    padding-top: calc(178px + 3vw);
 }
 
 .intro3 img{
@@ -107,7 +105,7 @@ hr {
 }
 
 .intro4 {
-    padding-top: 220px;
+    padding-top: calc(165px + 3vw);
 }
 
 .intro4 img{
@@ -115,7 +113,7 @@ hr {
 }
 
 .intro5 {
-    padding-top: 250px;
+    padding-top: calc(200px + 3vw);
 }
 
 .intro5 img{
@@ -123,7 +121,7 @@ hr {
 }
 
 nav a {
-    font-size: 25px;
+    font-size: calc(11px + 1vw);
     color: white;
     margin-right: 10px;
     margin-left: 10px;
@@ -137,7 +135,7 @@ nav a {
 
 .navbar-toggler .fa {
     color: white!important;
-    font-size: 26px;
+    font-size: calc(20px + 3vw);
 }
 
 a:hover {
@@ -145,4 +143,10 @@ a:hover {
     border-bottom: 1px solid white;
     font-weight: 600;
     margin-bottom: -1px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .navbar {
+        background-color: rgba(255,255,255,0.3)
+    }
 }
