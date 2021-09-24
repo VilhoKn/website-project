@@ -3,6 +3,9 @@
     padding: 0;
 }
 
+
+  
+
 .jumbotron {
     margin-bottom: 0!important;
     background-image: url(images/nimeton2.jpg);
@@ -67,6 +70,15 @@ p {
     border-radius: 0px!important;
 }
 
+.jumbotron6 {
+    background-image: url(images/nimeton8.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    border-radius: 0px!important;
+}
+
 nav {
     position: absolute!important;
 }
@@ -80,45 +92,7 @@ hr {
     margin-top: 0;
 }
 
-.intro {
-    padding-top: calc(155px + 3vw);
-}
 
-.intro img{
-    width: 220px;
-}
-
-.intro2 {
-    padding-top: calc(128px + 3vw);
-}
-
-.intro2 img{
-    width: 220px;
-}
-
-.intro3 {
-    padding-top: calc(178px + 3vw);
-}
-
-.intro3 img{
-    width: 220px;
-}
-
-.intro4 {
-    padding-top: calc(165px + 3vw);
-}
-
-.intro4 img{
-    width: 220px;
-}
-
-.intro5 {
-    padding-top: calc(200px + 3vw);
-}
-
-.intro5 img{
-    width: 220px;
-}
 
 nav a {
     font-size: calc(11px + 1vw);
