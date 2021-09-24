@@ -27,4 +27,4 @@ def internal_server_error(e):
     return render_template("500.html")
 
 if __name__ == '__main__':
-	app.run(debug=True)
+	app.run(debug=True, ssl_context=('cert.pem', 'key.pem'))
